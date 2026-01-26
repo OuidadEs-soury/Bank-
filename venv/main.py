@@ -33,3 +33,4 @@ while is_running:
         print("That is not a valid choice")
 
 print("Have a nice day!")
+print("Goodbye")
