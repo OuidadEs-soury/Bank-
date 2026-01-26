@@ -31,5 +31,3 @@ while is_running:
         is_running = False
     else:
         print("That is not a valid choice")
-
-print("Have a nice day!")
