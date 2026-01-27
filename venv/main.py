@@ -1,10 +1,10 @@
 
 
 def show_balance():
-    pass
+    print(f"Your balance is ${balance:.2f}")
 
 def deposit():
-    pass
+    amount = float(input("Enter an amount to be deposited"))
 
 def withdraw():
     pass
