@@ -6,6 +6,10 @@ def show_balance():
 def deposit():
     amount = float(input("Enter an amount to be deposited"))
 
+    if amount < 0:
+        print("That is not a valid amount")
+    else:
+        return amount
 def withdraw():
     pass
 
@@ -24,7 +28,7 @@ while is_running:
     if choice == '1':
         show_balance()
     elif choice == '2':
-        deposit()
+        balance += deposit()
     elif choice == '3':
         withdraw()
     elif choice == '4':
