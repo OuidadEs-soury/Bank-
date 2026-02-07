@@ -18,6 +18,7 @@ def withdraw(balance):
     amount = float(input("Enter amount to be withrawn: "))
     print("*************************")
 
+newbranch
     if amount > balance:
         print("*************************")
         print("Insufficient funds")
@@ -65,3 +66,6 @@ def main():
 
 if __name__=='__main__':
     main()
+print("Have a nice day!")
+print("Goodbye")
+ main
